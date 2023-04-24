@@ -1,0 +1,57 @@
+body::before {
+    display: block;
+    content: '';
+    height: 55px;
+  }
+
+body {
+    background-image: url("img/background-image.jpg");
+    background-size: cover;
+}
+
+.index {
+  background-color: white;
+}
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+.img-item {
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#footer {
+  background-color: #efefef;
+  flex: 0 0 50px;/*or just height:50px;*/
+  margin-top: auto;
+}
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
+}
+.lock:hover .icon-lock {
+    display: inline;
+}
+
+.bi-heart, .bi-heart-fill {
+  color: red;
+}
+
+.linker {
+  height: 60px;
+}
+
+.linker a {
+  font-size: 20px;
+}
